@@ -5,6 +5,8 @@
     color:#ffffff;
 }
 
+/* start of semantic element styling */
+
 body {
     background-color: #d9dcd6;
 }
@@ -42,6 +44,21 @@ header nav ul li {
     margin-left: 25px;
 }
 
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
+
+/* end of semantic element styling */
+
+/* start of non-semantic element styling */
+
 a {
     color: #ffffff;
     text-decoration: none;
@@ -50,6 +67,10 @@ a {
 p {
     font-size: 16px;
 }
+
+/* end of non-semantic element sytling */
+
+/* start of class styling */
 
 .hero {
     height: 800px;
@@ -126,15 +147,4 @@ p {
 
 .benefits p {
     margin-bottom: 32px;
-}
-
-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-footer h2 {
-    font-size: 20px;
 }
